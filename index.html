@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Infographic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Interactive Infographic</h2>
+    <div class="tooltip" id="tooltip"></div>
+    <svg viewBox="0 0 600 300">
+        <line class="grid-line" x1="0" y1="50" x2="600" y2="50"></line>
+        <line class="grid-line" x1="0" y1="100" x2="600" y2="100"></line>
+        <line class="grid-line" x1="0" y1="150" x2="600" y2="150"></line>
+        <line class="grid-line" x1="0" y1="200" x2="600" y2="200"></line>
+        
+        <rect class="bar" x="50" y="50" width="60" height="200" fill="#3498db" data-info="Category A: 200"></rect>
+        <rect class="bar" x="150" y="100" width="60" height="150" fill="#2ecc71" data-info="Category B: 150"></rect>
+        <rect class="bar" x="250" y="150" width="60" height="100" fill="#e74c3c" data-info="Category C: 100"></rect>
+        <rect class="bar" x="350" y="75" width="60" height="175" fill="#f1c40f" data-info="Category D: 175"></rect>
+        <rect class="bar" x="450" y="125" width="60" height="125" fill="#9b59b6" data-info="Category E: 125"></rect>
+    </svg>
+    <script src="script.js"></script>
+</body>
+</html>
