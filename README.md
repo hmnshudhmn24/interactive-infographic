@@ -20,6 +20,3 @@ It features an animated bar chart with hover effects and tooltips.
 - CSS
 - JavaScript (vanilla JS)
 - SVG for visualization
-
-## Author
-Created by Zyler.
